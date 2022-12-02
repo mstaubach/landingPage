@@ -50,10 +50,12 @@ a{
 .figureSection{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.randomContent > img {
+.figureSection > figure > img {
     outline-color: blue;
+
 }
 
 /*Quote Space*/
@@ -63,10 +65,16 @@ a{
     padding: 5%;
 }
 
+/*Call to Action*/
+.callToAction{
+    text-align: center;
+    padding: 2%;
+
+}
 
 footer{
     text-align: center;
-    background-color: #1F2937;
+    background-color: #1F2937;  
     color: white;
     margin: 0;
     padding:1%;
