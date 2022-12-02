@@ -41,3 +41,33 @@ a{
     width: 75%;
     background-color: grey;
 }
+
+/*Random Information Space*/
+.randomContent > h1{
+    text-align: center;
+}
+
+.figureSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.randomContent > img {
+    outline-color: blue;
+}
+
+/*Quote Space*/
+.quoteSpace{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 5%;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding:1%;
+}
