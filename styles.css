@@ -1,20 +1,43 @@
+body{
+    margin: 0;
+}
+
 /*Header Bar*/
 .navBar{
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-color: #1F2937;
+    color: white;
 }
 
 .navLinks {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    gap: 10px;
     align-items: center;
 
 }
 
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 1%;
+}
+
 /*Highlight Section*/
 .websiteHighlights{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
 
+}
+
+.column{
+    flex: 1;
+    align-items: center;
+}
+
+.column > img{
+    width: 75%;
+    background-color: grey;
 }
